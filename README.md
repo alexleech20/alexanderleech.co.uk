@@ -1,3 +1,12 @@
+# Hey! This is my portfolio site in which I will use as a digital CV, feel free to take a look and let me know what you think!
+
+## What im running: 
+
+- Javascript
+- React
+- MUI v5
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
