@@ -22,16 +22,15 @@ export default function Background() {
       style={{
         position: "fixed",
         inset: 0,
-        zIndex: -1,
 
-        // defaulted position of centre
+        // defaulted centre position
         "--x": "50%",
         "--y": "50%",
 
         background: `
           radial-gradient(circle at var(--x) var(--y),
             rgba(255,255,255,0.08),
-            transparent 30%),
+            transparent 25%),
           #0a192f
         `,
       }}
