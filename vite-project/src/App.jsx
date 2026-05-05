@@ -1,14 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import Background from './components/background'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Background />
+      <main style={{ position: "relative", zIndex: 1 }}>
+        <h1 stlye={{ color: "white" }}>Hello people</h1>
+      </main>
+    </>
   )
 }
 
