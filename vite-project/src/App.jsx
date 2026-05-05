@@ -12,7 +12,6 @@ function App() {
       
       <main style={{ position: "relative", zIndex: 1 }}>
         <HomePage />
-        <h1>Hello people</h1>
       </main>
     </>
   )
