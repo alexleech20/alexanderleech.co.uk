@@ -12,8 +12,6 @@ export default function Background() {
     ref.current.style.setProperty("--x", `${x}%`);
     ref.current.style.setProperty("--y", `${y}%`)
   };
-  
-  
 
   return (
     <div
