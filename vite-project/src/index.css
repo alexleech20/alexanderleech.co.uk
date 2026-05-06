@@ -27,19 +27,34 @@ html, body, #root {
   -webkit-text-size-adjust: 100%;
 }
 
+p {
+  font-weight: 500;
+  color: #6e80a8;
+}
 
+a {
+  font-weight: 500;
+  color: #c5d1ec;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #30f5fc;
+}
 
 h1 {
+  color: #c5d1ec;
   font-size: 3.2rem;
   line-height: 1.1;
 }
 
 h2 {
+  color: #c5d1ec;
   font-size: 2rem;
   line-height: 2.5rem;
 }
 
 h3 {
+  color: #c5d1ec;
   font-size: 1.5rem;
   line-height: 2rem;
 }
