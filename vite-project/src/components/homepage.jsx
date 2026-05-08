@@ -1,5 +1,6 @@
 import react from 'react';
 import AboutMe from './aboutMe.component';
+import NameHeader from './nameHeader.component';
 
 
 export default function HomePage() {
@@ -9,10 +10,8 @@ export default function HomePage() {
     <>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-5">
         {/* <leftHalfComponent /> */}
-        <div class="grid pt-10 px-5 text-left">
-          <h1>Alexander Leech</h1>
-          <h2 class="pt-3 pb-3">Frontend Developer</h2>
-          <p>I build accessible, mobile first experiences for users.</p>
+        <div class="grid pt-10 px-5 text-left mh-50">
+          <NameHeader />
         </div>
         
         {/* <rightHalfComponent /> */}
