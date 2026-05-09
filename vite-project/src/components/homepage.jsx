@@ -15,7 +15,7 @@ export default function HomePage() {
         </div>
         
         {/* <rightHalfComponent /> */}
-        <div class="grid px-5">
+        <div class="grid pt-10 px-5 text-left">
           <AboutMe />
         </div>
       </div>

@@ -64,3 +64,11 @@ h3 {
 .mh-50 {
   max-height: 50%;
 }
+
+.responsiveMediaPadding {
+  padding-top: 3rem;
+
+  @media only screen and (max-width: 768px) {
+    padding-top: 1.5rem;
+  }
+}
