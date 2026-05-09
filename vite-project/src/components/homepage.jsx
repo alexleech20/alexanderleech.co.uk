@@ -2,7 +2,6 @@ import react from 'react';
 import AboutMe from './aboutMe.component';
 import NameHeader from './nameHeader.component';
 
-
 export default function HomePage() {
 
   return (
