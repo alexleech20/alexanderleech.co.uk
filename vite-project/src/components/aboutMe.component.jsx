@@ -10,9 +10,9 @@ export default function AboutMe() {
       <br />
       <p>Previously, I have worked across a wide range of environments - from startups to large scale consultancies 
         - including 
-        <a aria-label="Link to capita.com" target="_blank" href="https://www.capita.com/"> Capita</a>, 
-        <a aria-label="Link to orangebus linkedin page" target="_blank" href="https://www.linkedin.com/company/orange-bus-ltd/about/"> Orangebus</a> & 
-        <a aria-label="Link to daykin-and-storeys linkedin page" target="_blank" href="https://www.linkedin.com/company/daykin-&-storey/?originalSubdomain=uk"> Daykin & Storey.</a>
+        <a className="anchorHoverStyles" aria-label="Link to capita.com" target="_blank" href="https://www.capita.com/"> Capita</a>, 
+        <a className="anchorHoverStyles" aria-label="Link to orangebus linkedin page" target="_blank" href="https://www.linkedin.com/company/orange-bus-ltd/about/"> Orangebus</a> & 
+        <a className="anchorHoverStyles" aria-label="Link to daykin-and-storeys linkedin page" target="_blank" href="https://www.linkedin.com/company/daykin-&-storey/?originalSubdomain=uk"> Daykin & Storey.</a>
       </p>
       <br />
       <p>In my spare time, you will often find me at the gym, walking my dog, or watching the football (Newcastle).</p>
