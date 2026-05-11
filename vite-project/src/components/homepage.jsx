@@ -34,7 +34,7 @@ export default function HomePage() {
             <ExperienceCards 
               cardLinkTo="https://www.capita.com" 
               duration="2019 - 2023"
-              jobTitleCompany="Frotend React Developer - Capita Consulting"
+              jobTitleCompany="Frontend React Developer - Capita Consulting"
               description="I led a team responsible for planning, decision-making, and delivering four sites for a large-scale UK insurance provider, ensuring secure, PCI-compliant solutions with seamless Worldpay payment integration. I contributed to building a reusable component system and theme to support consistency and scalability across the client’s architecture, while also maintaining high development standards. Alongside delivery work, I mentored junior developers and supported their onboarding, helping them integrate quickly into the team’s processes and improve overall productivity."
             />
           </div>
