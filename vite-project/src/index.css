@@ -37,9 +37,6 @@ a {
   color: #c5d1ec;
   text-decoration: inherit;
 }
-a:hover {
-  color: #30f5fc;
-}
 
 h1 {
   color: #c5d1ec;
@@ -60,6 +57,11 @@ h3 {
 }
 
 /* custom styles */
+.anchorHoverStyles {
+  &:hover {
+    color: #30f5fc;
+  }
+}
 
 .mh-50 {
   max-height: 50%;
