@@ -19,8 +19,11 @@ export default function HomePage() {
           <AboutMe />
         </div>
       </div>
-      <div className="grid grid-cols-12 gap-4 pt-5">
+      <div className="grid grid-cols-1 gap-4 pt-5">
         {/* <div className="col-span-6"></div> */}
+        <div>
+          {/* <p>split 50/50</p> */}
+        </div>
         <div class="md:col-start-16 col-span-6 pt-10 px-5 text-left">
           <div>
             <ExperienceCards 
