@@ -30,20 +30,26 @@ export default function experienceCard({ duration, jobTitleCompany, description,
                 <p>{description}</p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'row' }}>
-                <ul className="pt-4">
-                  <li>
-                    <p className="descriptionTags">AWS</p>
-                  </li>
-                  <li>
-                    <p className="descriptionTags">Typescript & Javascript</p>
-                  </li>
-                  <li>
-                    <p className="descriptionTags">Drupal</p>
-                  </li>
-                  <li>
-                    <p className="descriptionTags">Accessibility</p>
-                  </li>
-                </ul>
+                <div>
+                  <span className="bg-blue-900 bg-success-soft color-red text-md font-medium px-1.5 py-0.5 rounded">
+                      AWS
+                  </span>
+                </div>
+                <div className="pl-3">
+                  <span className="bg-blue-900 bg-success-soft color-red text-md font-medium px-1.5 py-0.5 rounded">
+                    Typescript & Javascript
+                  </span>
+                </div>
+                <div className="pl-3">
+                  <span className="bg-blue-900 bg-success-soft color-red text-md font-medium px-1.5 py-0.5 rounded">
+                    Drupal
+                  </span>
+                </div>
+                <div className="pl-3">
+                  <span className="bg-blue-900 bg-success-soft color-red text-md font-medium px-1.5 py-0.5 rounded">
+                    Accessibility
+                  </span>
+                </div>
               </div>
             </div>
           </div>
